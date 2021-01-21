@@ -43,7 +43,7 @@ if ( ! function_exists('gahan_menu') ) {
 			'filter_items_list'     => __( 'Filter items list', 'imgd' ),
 		);
 		$rewrite = array(
-			'slug'                  => 'restaurant',
+			'slug'                  => 'menu',
 			'with_front'            => true,
 			'pages'                 => true,
 			'feeds'                 => true,
