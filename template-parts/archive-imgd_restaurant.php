@@ -52,7 +52,6 @@ echo blocksy_output_hero_section([
 				'type' => 'type-1'
 			]);
 		?>
-<h1> Nuestra Carta </h1>
 		<?php if ( have_posts() ) { ?>
 			<?php if ( have_posts() ) { ?>
 				<div class="entries"
