@@ -66,7 +66,7 @@ echo blocksy_output_hero_section([
 				while ( have_posts() ) {
 					the_post();
 
-					do_shortcode('[blocksy_posts post_type=imgd_restaurant term_ids=17 orderby=rand has_pagination=no]')
+					do_shortcode("[blocksy_posts post_type=imgd_restaurant term_ids=17 orderby=rand has_pagination=no]");
 					// get_template_part(
 					// 	'template-parts/content-loop', get_post_type()
 					// );
