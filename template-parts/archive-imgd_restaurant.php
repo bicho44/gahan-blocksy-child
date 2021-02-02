@@ -68,7 +68,7 @@ echo blocksy_output_hero_section([
 ?>
 	<h2>Entradas</h2>
 <?php
-					echo do_shortcode("[blocksy_posts post_type=imgd_restaurant term_ids=17 orderby=rand has_pagination=no]");
+					echo do_shortcode("[blocksy_posts post_type=imgd_restaurant limit=20 term_ids=17 orderby=rand has_pagination=no]");
 					// get_template_part(
 					// 	'template-parts/content-loop', get_post_type()
 					// );
