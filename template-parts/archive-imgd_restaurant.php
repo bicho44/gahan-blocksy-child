@@ -63,16 +63,16 @@ echo blocksy_output_hero_section([
 					<?php echo blocksy_generic_get_deep_link() ?>>
 			<?php }
 
-				// while ( have_posts() ) {
-				// 	the_post();
+				while ( have_posts() ) {
+					the_post();
 ?>
-	<h2>Entradas</h2>
+	<!-- <h2>Entradas</h2> -->
 <?php
-					echo do_shortcode("[blocksy_posts post_type=imgd_restaurant limit=12 term_ids=17 orderby=rand order=ASC has_pagination=no]");
-					// get_template_part(
-					// 	'template-parts/content-loop', get_post_type()
-					// );
-				// }
+					// echo do_shortcode("[blocksy_posts post_type=imgd_restaurant limit=12 term_ids=17 orderby=rand order=ASC has_pagination=no]");
+					get_template_part(
+						'template-parts/content-loop', get_post_type()
+					);
+				}
 			?>
 
 			<?php if ( have_posts() ) { ?>
