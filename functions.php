@@ -14,14 +14,14 @@ if ( ! function_exists('gahan_menu') ) {
 	function gahan_menu() {
 	
 		$labels = array(
-			'name'                  => _x( 'Restaurant Items', 'Post Type General Name', 'imgd' ),
+			'name'                  => _x( 'Nuestra Carta', 'Post Type General Name', 'imgd' ),
 			'singular_name'         => _x( 'Restaurant Item', 'Post Type Singular Name', 'imgd' ),
-			'menu_name'             => __( 'Restaurant', 'imgd' ),
+			'menu_name'             => __( 'Carta', 'imgd' ),
 			'name_admin_bar'        => __( 'Restaurant', 'imgd' ),
 			'archives'              => __( 'Nuestro Menú', 'imgd' ),
 			'attributes'            => __( 'Atributos de los items', 'imgd' ),
 			'parent_item_colon'     => __( 'item Padre', 'imgd' ),
-			'all_items'             => __( 'Todo el Menú', 'imgd' ),
+			'all_items'             => __( 'Nuestra Carta', 'imgd' ),
 			'add_new_item'          => __( 'Agrega un Nuevo Item', 'imgd' ),
 			'add_new'               => __( 'Agregar Nuevo', 'imgd' ),
 			'new_item'              => __( 'Nuevo Item', 'imgd' ),
@@ -38,9 +38,9 @@ if ( ! function_exists('gahan_menu') ) {
 			'use_featured_image'    => __( 'Usar la Imagen Principal', 'imgd' ),
 			'insert_into_item'      => __( 'Insert into item', 'imgd' ),
 			'uploaded_to_this_item' => __( 'Uploaded to this item', 'imgd' ),
-			'items_list'            => __( 'Listado del menú', 'imgd' ),
+			'items_list'            => __( 'Nuestras Carta', 'imgd' ),
 			'items_list_navigation' => __( 'Items list navigation', 'imgd' ),
-			'filter_items_list'     => __( 'Filter items list', 'imgd' ),
+			'filter_items_list'     => __( 'Filtrar la carta', 'imgd' ),
 		);
 		$rewrite = array(
 			'slug'                  => 'menu',
@@ -49,7 +49,7 @@ if ( ! function_exists('gahan_menu') ) {
 			'feeds'                 => true,
 		);
 		$args = array(
-			'label'                 => __( 'Restaurant Item', 'imgd' ),
+			'label'                 => __( 'Carta Restaurant', 'imgd' ),
 			'description'           => __( 'Menu para el Bar', 'imgd' ),
 			'labels'                => $labels,
 			'supports'              => array( 'title', 'editor','excerpt', 'thumbnail', 'custom-fields' ),
