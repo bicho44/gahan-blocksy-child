@@ -16,7 +16,7 @@
     //@TODO set cpt's name
     if ( $query->is_main_query() &&  is_post_type_archive( $cpt_name ) ) {
         //@TODO Set the name of the field we are ordering by
-        $query->set( 'meta_key', 'FIELD_NAME' );
+        $query->set( 'tax', 'FIELD_NAME' );
         //@TODO change order to DESC IF you want to go in reverse order
         $query->set( 'order', 'ASC' );
         //@TODO uncomment next line IF you want to sort by an integer instead of alphabetically

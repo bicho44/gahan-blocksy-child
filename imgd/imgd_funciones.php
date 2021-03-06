@@ -43,6 +43,7 @@ function imgdigital_scripts() {
         wp_enqueue_script( 'comment-reply' );
     }
 }
+
 add_action( 'wp_enqueue_scripts', 'imgdigital_scripts' );
 
 /** Definir el largo de los excerpt */
@@ -72,13 +73,13 @@ add_action( 'after_setup_theme', 'imgd_theme_add_font_editor_styles' );
  * Otros elementos para este tema
  */
 //require get_template_directory() . '/inc/meta-box/meta-box.php';// MetaBox functions
-require get_template_directory() . '/imgd/imgd_images_sizes.php';
+//require get_template_directory() . '/imgd/imgd_images_sizes.php';
 
 //require get_template_directory() . '/imgd/imgd_settings.php';
 
 //require get_template_directory() . '/inc/imgd/imgd_onepage_settings.php'; // Estas opciones estaban pensadas para el theme de onepagescroll
-require get_template_directory() . '/imgd/imgd_gallery.php';
-require get_template_directory() . '/imgd/imgd_nav.php';
+//require get_template_directory() . '/imgd/imgd_gallery.php';
+//require get_template_directory() . '/imgd/imgd_nav.php';
 
 require get_template_directory() . '/imgd/imgd_archive_order.php';
 require get_template_directory() . '/imgd/imgd_child_pages.php';

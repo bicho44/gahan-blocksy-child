@@ -1,6 +1,6 @@
 <?php
 
-require get_template_directory() . '/imgd/imgd_archive_order.php';
+//require get_template_directory() . '/imgd/imgd_archive_order.php';
 
 // Custom Post type para el Menu
 if ( ! function_exists('gahan_menu') ) {
