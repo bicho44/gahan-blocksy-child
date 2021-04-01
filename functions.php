@@ -9,4 +9,4 @@ add_action( 'wp_enqueue_scripts', function () {
 /**
  * Load IMGD Framework compatibility file.
  */
-require get_template_directory() . '/imgd/imgd_CPT_Gahan.php';
+require get_stylesheet_directory_uri() . '/imgd/imgd_CPT_Gahan.php';
